@@ -1,0 +1,11 @@
+# Python-generated files
+backend/__pycache__/
+backend/*.py[oc]
+backend/build/
+backend/dist/
+backend/wheels/
+backend/*.egg-info
+
+# Environments
+backend/.venv
+backend/.env
