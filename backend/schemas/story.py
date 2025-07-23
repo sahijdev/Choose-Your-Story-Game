@@ -30,7 +30,8 @@ class CreateStoryRequest(BaseModel):
 
 class CompleteStoryResponse(StoryBase):
     id: int
-    created_at: datetimeNodeResponse
+    created_at: datetime
+    root_node: CompleteStoryNodeResponse
     all_nodes: Dict[int, CompleteStoryNodeResponse]
 
     class Config:

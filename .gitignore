@@ -9,3 +9,7 @@ backend/*.egg-info
 # Environments
 backend/.venv
 backend/.env
+
+# Mac files
+.DS_Store
+backend/.DS_Store
